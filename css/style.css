@@ -1,0 +1,181 @@
+/** index.php **/
+
+#title {
+	text-align:center;
+	font-family : monospace;
+	font-size: 24px;
+	font-weight: bold;
+	color: #2F4F4F;
+}
+
+img#banner {
+	width: 317px;
+	height: 110px;
+	margin: 0 auto;
+	display: block;
+}
+
+#search {
+    width: 30%;
+    border-right: 2px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+	margin: 1% auto;
+	margin-bottom: 0;
+	display: block;
+	background-image: url('../img/search.png');
+	background-size: 30px 30px;
+    background-position: 8px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#menu {
+	text-align: center;
+}
+
+.menuButton {
+	margin: 0 auto;
+	margin-right: 5px;
+    background-color: #104E8B;
+	border : none;
+    color: #FFFFFF;
+    padding: 10px 13px;
+    text-align: center;
+    font-size: 12px;
+	font-weight: bold;
+}
+
+.hr {
+	background-color: #8B8B83;
+	border-width: 0;
+	height: 2px;
+	line-height: 0;
+	text-align: left;
+}
+
+.uploadImages {
+	min-height: 330px;
+	max-height: 330px;	
+}
+
+body {
+    background-color: #F8F8FF;
+}
+
+/** login.php **/
+
+#signupLink {
+	text-decoration: none;
+}
+#signupButton {
+	margin: 0% auto;
+	display: block;
+    background-color: #104E8B;
+	border : none;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/** contactus.php **/
+
+#submit {
+	margin: 0% auto;
+	display: block;
+    background-color: #388E8E;
+	border : none;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 16px;
+	font-weight: bold;
+}
+
+#message {
+	height: 80px;
+}
+
+.contact {
+	width: 25%;
+	height: 40px;
+    border-right: 2px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+	margin: 0 auto;
+	margin-bottom: 0;
+	display: block;
+	word-wrap: break-word;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/** upload.php **/
+#file {
+	margin: 0 auto;	
+	display: block;
+}
+
+#description {
+	height: 80px;
+}
+
+/** details.php **/
+.detailImages {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 300px;
+}
+
+/** myUpload.php **/
+
+#uploadLink {
+	text-decoration: none;
+}
+
+#uploadButton {
+	margin: 0% auto;
+	display: block;
+    background-color: #388E8E;
+	border : none;
+    color: #FFFFFF;
+    padding: 10px 23px;
+    text-align: center;
+    font-size: 16px;
+	font-weight: bold;
+}
+
+#deleteButton {
+	margin: 0% auto;
+	display: block;
+    background-color: #FA8072;
+	border : none;
+    color: #FFFFFF;
+    padding: 9px 18px;
+    margin-bottom: 10px;
+    font-size: 13px;
+	font-weight: bold;
+}
+
+.h4, h4 {
+    font-size: 18px;
+	text-align: center;
+}
+
+/** Mobile **/
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+  .contact {
+	  width: 55%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 685px) {
+  .contact {
+	  width: 50%;
+  }
+}
+
